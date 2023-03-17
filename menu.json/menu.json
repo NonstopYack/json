@@ -1,0 +1,27 @@
+{"menu":[
+    {"id":1,
+    "nombre": "Hamburguesa",
+    "Descripcion": "DobleCarne, ConTocino, queso amarillo, Jalapeño",
+    "Precio": 100,
+    "imagen": "imagen/Hamburguesa.jpg"
+},
+{"id":1,
+    "nombre": "Hamburguesa",
+    "Descripcion": "DobleCarne, ConTocino, queso amarillo, Jalapeño",
+    "Precio": 100,
+    "imagen": "imagen/Hamburguesa.jpg"
+},
+{"id":1,
+    "nombre": "Hamburguesa",
+    "Descripcion": "DobleCarne, ConTocino, queso amarillo, Jalapeño",
+    "Precio": 100,
+    "imagen": "imagen/Hamburguesa.jpg"
+},
+{"id":1,
+    "nombre": "Hamburguesa",
+    "Descripcion": "DobleCarne, ConTocino, queso amarillo, Jalapeño",
+    "Precio": 100,
+    "imagen": "imagen/Hamburguesa.jpg"
+    
+}]
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css"
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>    
+<title>Document</title>
+</head>
+<body>
+ <div style="margin: 24px;">
+    <nav class="navbar navbar-inverse navba-stick-static-top">
+<div class="container">
+    <a class="navbar-navbrand"href="index.html">inicio</a>
+    <u1 class="na navbar-nav">
+        <li>
+        <a href="menu.html">MENU</a>    
+        </li>
+        <li>
+            <a href="pedido.html">pedido</a>
+        </li>
+        <li>
+           <a href="contacto.html">contacto</a> 
+        </li>
+    </u1>  
+</div>
+</nav>   
+</div>
+<h1 style="text-align: center;">MENU</h1>
+<div id="menu"></div>
+<script>
+    fetch('menu.json')
+    .then(Response => response.json())
+    .then(data => {
+    const menu = document.getElementById('menu');
+    data.menu.forEach(item =>{
+    const container = document.createElement('div');
+    container.classList.add('item');
+    container.innerHTML=
+    `<h1>${item.id}</h1>
+    `;
+
+    menu.appendChild(container);
+    })
+})
+
+</script>
+</body>
+<tr>
